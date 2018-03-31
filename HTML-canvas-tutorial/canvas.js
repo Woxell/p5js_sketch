@@ -6,34 +6,6 @@ canvas.background = 0;
 
 var c = canvas.getContext('2d');
 
-// c.fillStyle = 'rgba(255, 0, 0, 0.5)';
-// c.fillRect(100, 100, 100, 100);
-// c.fillStyle = 'rgba(0, 255, 0, 0.7)';
-// c.fillRect(210, 300, 150, 100);
-// c.fillStyle = 'rgba(0, 0, 255, 0.2)';
-// c.fillRect(250, 20, 100, 100);
-//
-// //Lines
-// c.beginPath();
-// c.moveTo(50, 300);
-// c.lineTo(300, 100);
-// c.lineTo(400,300);
-// c.strokeStyle = "yellow";
-//
-// c.stroke();
-
-//Arc / circle
-
-// for(var i = 0; i<10; i++)
-// {
-// 	var x = Math.random() * window.innerWidth;
-// 	var y = Math.random() * window.innerHeight;
-// 	c.beginPath();
-// 	c.arc(x,y,30, 0, Math.PI*2, false);
-// 	c.strokeStyle = "blue";
-// 	c.stroke();
-// }
-
 function Circle(x, y, dx, dy, radius){
 	this.x = x;
 	this.y = y;
@@ -64,12 +36,6 @@ function Circle(x, y, dx, dy, radius){
 	}
 }
 
-
-
-
-
-
-
 var circleArray = [];
 for(var i = 0; i<100; i++)
 {
@@ -81,7 +47,6 @@ for(var i = 0; i<100; i++)
 	circleArray.push(new Circle(x, y, dx, dy, radius));
 }
 
-
 function animate()
 {
 	requestAnimationFrame(animate);
@@ -91,8 +56,6 @@ function animate()
 		circleArray[i].draw();
 		circleArray[i].update();
 	}
-
-
 }
 
 animate();
