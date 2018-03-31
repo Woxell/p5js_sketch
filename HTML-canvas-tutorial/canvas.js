@@ -37,7 +37,7 @@ function Circle(x, y, dx, dy, radius){
 }
 
 var circleArray = [];
-for(var i = 0; i<200; i++)
+for(var i = 0; i<500; i++)
 {
 	var radius = 20;
 	var x = innerWidth/2;
