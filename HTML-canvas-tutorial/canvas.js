@@ -37,9 +37,9 @@ function Circle(x, y, dx, dy, radius){
 }
 
 var circleArray = [];
-for(var i = 0; i<100; i++)
+for(var i = 0; i<200; i++)
 {
-	var radius = 30;
+	var radius = 20;
 	var x = innerWidth/2;
 	var y = innerHeight/2;
 	var dx = (Math.random()-0.5)*5;
