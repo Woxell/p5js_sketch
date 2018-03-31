@@ -61,10 +61,10 @@ function Circle(x, y, dx, dy, radius, r, g, b) {
 var circleArray = [];
 for (var i = 0; i < 400; i++) {
   var radius = 2;
-  var x = innerWidth/2;
-  var y = innerHeight/2;
-  var dx = Math.cos(Math.random() * Math.PI)*10;
-  var dy = Math.sin(Math.random() * Math.PI)*10;
+	var x = innerWidth/2;
+	var y = innerHeight/2;
+	var dx = Math.cos(Math.random() * Math.PI*2)*Math.random()*10;
+	var dy = Math.sin(Math.random() * Math.PI*2)*Math.random()*10;
   var r = Math.floor(Math.random() * 255);
   var g = Math.floor(Math.random() * 255);
   var b = Math.floor(Math.random() * 255);
