@@ -41,10 +41,10 @@ function Circle(x, y, dx, dy, radius /*, r, g, b*/ ) {
 
     //interactivity
     this.vicinity = 50;
-    if (mouse.x - this.x < this.vicinity && mouse.x - this.x > -this.vicinity &&
-      mouse.y - this.y < this.vicinity && mouse.y - this.y > -this.vicinity &&
-      mouse.x > 10 && mouse.x < innerWidth - 10 &&
-      mouse.y > 10 && mouse.y < innerHeight - 10 &&
+    if (mouse.x - this.x <= this.vicinity && mouse.x - this.x >= -this.vicinity &&
+      mouse.y - this.y <= this.vicinity && mouse.y - this.y >= -this.vicinity &&
+      mouse.x >= 10 && mouse.x <= innerWidth - 10 &&
+      mouse.y >= 10 && mouse.y <= innerHeight - 10 &&
       this.radius <= maxRadius) {
       this.radius += 1;
     } else if (this.radius > this.minRadius) {
