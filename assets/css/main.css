@@ -161,7 +161,7 @@ h6 {
   margin: 15px auto;
   display: block;
   width: 120px;
-  border: 8px solid color-mix(in srgb, var(--default-color), transparent 85%);
+  border: 3px solid #fff8e0;
 }
 
 .header .logo {
@@ -503,16 +503,23 @@ h6 {
 section,
 .section {
   color: var(--default-color);
-  background-color: var(--background-color);
   padding: 60px 0;
   overflow: clip;
+}
+.section:nth-of-type(even) {
+  background-color: #ffffff;
+}
+
+.section:nth-of-type(odd) {
+  background-color: #f4ffff;
 }
 
 /*--------------------------------------------------------------
 # Global Section Titles
 --------------------------------------------------------------*/
 .section-title {
-  padding-bottom: 60px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
   position: relative;
 }
 
@@ -537,6 +544,11 @@ section,
 
 .section-title p {
   margin-bottom: 0;
+}
+
+.section .container {
+  margin-top: 0;
+  padding-top: 0;
 }
 
 /*--------------------------------------------------------------
