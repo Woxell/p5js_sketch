@@ -15,766 +15,477 @@
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com" rel="preconnect">
     <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-          rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
 
     <!-- Stylesheets -->
-    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link href="assets/css/main.css" rel="stylesheet">
+    <link href="assets/aos/aos.css" rel="stylesheet">
+    <link href="assets/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+
 
     <!-- Scripts -->
-    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js" defer></script>
-    <script src="assets/vendor/php-email-form/validate.js" defer></script>
-    <script src="assets/vendor/aos/aos.js" defer></script>
-    <script src="assets/vendor/typed.js/typed.umd.js" defer></script>
-    <script src="assets/vendor/purecounter/purecounter_vanilla.js" defer></script>
-    <script src="assets/vendor/waypoints/noframework.waypoints.js" defer></script>
-    <script src="assets/vendor/glightbox/js/glightbox.min.js" defer></script>
-    <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js" defer></script>
-    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js" defer></script>
-    <script src="assets/vendor/swiper/swiper-bundle.min.js" defer></script>
 
-    <!-- Main JS File -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <script src="assets/scripts/typed.umd.js" defer></script>
+    <script src="assets/aos/aos.js" defer></script>
     <script src="assets/scripts/main.js" defer></script>
 </head>
 
 <body class="index-page">
 
-<header id="header" class="header dark-background d-flex flex-column">
-    <i class="header-toggle d-xl-none bi bi-list"></i>
+    <header id="header" class="header dark-background d-flex flex-column">
+        <i class="header-toggle d-xl-none bi bi-list"></i>
 
-    <div class="profile-img">
-        <img src="assets/img/pfp.jpg" alt="" class="img-fluid rounded-circle">
-    </div>
-
-    <a href="index.html" class="logo d-flex align-items-center justify-content-center">
-        <img src="assets/img/logo.png" alt="">
-        <h1 class="sitename">André Woxell</h1>
-    </a>
-
-    <div class="social-links text-center">
-        <a href="https://github.com/Woxell/" class="github" target="_blank"><i class="bi bi-github"></i></a>
-        <a href="https://www.linkedin.com/in/andrewoxell/" class="linkedin" target="_blank"><i class="bi bi-linkedin"></i></a>
-    </div>
-
-    <nav id="navmenu" class="navmenu">
-        <ul>
-            <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i>Home</a></li>
-            <li><a href="#about"><i class="bi bi-person navicon"></i> About</a></li>
-            <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
-            <li><a href="#portfolio"><i class="bi bi-images navicon"></i> Portfolio</a></li>
-<!--            <li class="dropdown"><a href="#"><i class="bi bi-menu-button navicon"></i> <span>Dropdown</span> <i-->
-<!--                    class="bi bi-chevron-down toggle-dropdown"></i></a>-->
-<!--                <ul>-->
-<!--                    <li><a href="#">Dropdown 1</a></li>-->
-<!--                    <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i-->
-<!--                            class="bi bi-chevron-down toggle-dropdown"></i></a>-->
-<!--                        <ul>-->
-<!--                            <li><a href="#">Deep Dropdown 1</a></li>-->
-<!--                            <li><a href="#">Deep Dropdown 2</a></li>-->
-<!--                            <li><a href="#">Deep Dropdown 3</a></li>-->
-<!--                            <li><a href="#">Deep Dropdown 4</a></li>-->
-<!--                            <li><a href="#">Deep Dropdown 5</a></li>-->
-<!--                        </ul>-->
-<!--                    </li>-->
-<!--                    <li><a href="#">Dropdown 2</a></li>-->
-<!--                    <li><a href="#">Dropdown 3</a></li>-->
-<!--                    <li><a href="#">Dropdown 4</a></li>-->
-<!--                </ul>-->
-<!--            </li>-->
-            <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
-        </ul>
-    </nav>
-
-</header>
-
-<main class="main">
-
-    <!-- Hero Section -->
-    <section id="hero" class="hero section dark-background">
-
-        <img src="assets/img/banner.png" alt="" data-aos="fade-in" class="">
-
-        <div class="container" data-aos="fade-up" data-aos-delay="50">
-            <h2>André Woxell</h2>
-            <p>I'm a <span class="typed"
-                           data-typed-items="Developer, Problem Solver, Creative Madman"></span><span
-                    class="typed-cursor typed-cursor--blink" aria-hidden="true"></span><span
-                    class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
+        <div class="profile-img">
+            <img src="assets/img/pfp.jpg" alt="" class="img-fluid rounded-circle">
         </div>
 
-    </section><!-- /Hero Section -->
+        <a href="index.html" class="logo d-flex align-items-center justify-content-center">
+            <img src="assets/img/logo.png" alt="">
+            <h1 class="sitename">André Woxell</h1>
+        </a>
 
-    <!-- About Section -->
-    <section id="about" class="about section">
+        <div class="social-links text-center">
+            <a href="https://github.com/Woxell/" class="github" target="_blank"><i class="bi bi-github"></i></a>
+            <a href="https://www.linkedin.com/in/andrewoxell/" class="linkedin" target="_blank"><i
+                    class="bi bi-linkedin"></i></a>
+        </div>
 
-        <!-- Section Title -->
-        <div class="container section-title" data-aos="fade-up">
-            <h2>About</h2>
-            <p>Hi, I'm André – a passionate software developer who loves solving problems and writing clean, efficient
-                code. I’m currently studying systems development, where I’ve achieved strong academic results and worked
-                as a
-                teacher’s assistant in multiple courses. My experience includes Java, Python, SQL, test-driven
-                development, and front-end technologies. <br><br>
-                My journey into tech wasn’t straightforward—I started out studying physics and mathematics, which led me
-                toward teaching before I transitioned into IT. Along the way, I’ve gained strong analytical,
-                pedagogical, and communication skills that now help me approach development with structure and clarity.
-                <br><br>
-                I enjoy learning new things, tackling challenges, and building meaningful solutions. Feel free to check
-                out my projects or get in touch! <br><br></p>
-        </div><!-- End Section Title -->
+        <nav id="navmenu" class="navmenu">
+            <ul>
+                <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i>Home</a></li>
+                <li><a href="#about"><i class="bi bi-person navicon"></i> About</a></li>
+                <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
+                <li><a href="#portfolio"><i class="bi bi-images navicon"></i> Portfolio</a></li>
+                <!--            <li class="dropdown"><a href="#"><i class="bi bi-menu-button navicon"></i> <span>Dropdown</span> <i-->
+                <!--                    class="bi bi-chevron-down toggle-dropdown"></i></a>-->
+                <!--                <ul>-->
+                <!--                    <li><a href="#">Dropdown 1</a></li>-->
+                <!--                    <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i-->
+                <!--                            class="bi bi-chevron-down toggle-dropdown"></i></a>-->
+                <!--                        <ul>-->
+                <!--                            <li><a href="#">Deep Dropdown 1</a></li>-->
+                <!--                            <li><a href="#">Deep Dropdown 2</a></li>-->
+                <!--                            <li><a href="#">Deep Dropdown 3</a></li>-->
+                <!--                            <li><a href="#">Deep Dropdown 4</a></li>-->
+                <!--                            <li><a href="#">Deep Dropdown 5</a></li>-->
+                <!--                        </ul>-->
+                <!--                    </li>-->
+                <!--                    <li><a href="#">Dropdown 2</a></li>-->
+                <!--                    <li><a href="#">Dropdown 3</a></li>-->
+                <!--                    <li><a href="#">Dropdown 4</a></li>-->
+                <!--                </ul>-->
+                <!--            </li>-->
+                <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
+            </ul>
+        </nav>
 
-        <div class="container" data-aos="fade-up" data-aos-delay="50">
+    </header>
 
-            <div class="row gy-4 justify-content-center">
-                <div class="col-lg-4">
-                    <img src="assets/img/pfp.jpg" class="img-fluid" alt="">
-                </div>
-                <div class="col-lg-8 content">
-                    <h2>Systemutvecklare | Software Engineer.</h2>
-                    <p class="fst-italic py-3">
-                        Currently studying at Malmö University. Expected graduation in June 2026.
-                    </p>
-                    <div class="row">
-                        <div class="col-lg-5">
-                            <ul>
-                                <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong>
-                                    <span>15 Oct 1991</span></li>
-                                <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong>
-                                    <span><a href="https://woxell.se">woxell.se</a></span></li>
-                                <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong>
-                                    <span>+46 (0)76 094 60 02</span></li>
-                                <li><i class="bi bi-chevron-right"></i> <strong>City:</strong>
-                                    <span>Malmö, Skåne, Sweden</span></li>
-                            </ul>
-                        </div>
-                        <div class="col-lg-6">
-                            <ul>
-                                <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> 
-                                    <span id="age" data-birth="1991-10-15">34</span></li>
-                                <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>
-                                    <a href="https://utbildningsinfo.mau.se/program/tgsya/utbildningsplan/20232" target="_blank">
-                                       BSc. CompSci. Software Development</a></span>
-                                </li>
-                                <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong>
-                                    <span><a href="mailto:andre@woxell.se">andre@woxell.se</a></span></li>
-                                <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong>
-                                    <span>Available</span></li>
-                            </ul>
-                        </div>
+    <main class="main">
+
+        <!-- Hero Section -->
+        <section id="hero" class="hero section dark-background">
+
+            <img src="assets/img/banner.png" alt="" data-aos="fade-in" class="">
+
+            <div class="container" data-aos="fade-up" data-aos-delay="50">
+                <h2>André Woxell</h2>
+                <p>I'm a <span class="typed" data-typed-items="Developer, Problem Solver, Creative Madman"></span><span
+                        class="typed-cursor typed-cursor--blink" aria-hidden="true"></span><span
+                        class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
+            </div>
+
+        </section><!-- /Hero Section -->
+
+        <!-- About Section -->
+        <section id="about" class="about section">
+
+            <!-- Section Title -->
+            <div class="container section-title" data-aos="fade-up">
+                <h2>About</h2>
+                <p>Hi, I'm André – a passionate software developer who loves solving problems and writing clean,
+                    efficient code. I’m currently studying systems development, where I’ve achieved strong academic
+                    results and worked as a teacher’s assistant in multiple courses. My experience includes Java,
+                    Python, SQL, test-driven development, and front-end technologies.
+                    <br><br>
+                    My journey into tech wasn’t straightforward—I started out studying physics and mathematics, which
+                    led me toward teaching before I transitioned into IT. Along the way, I’ve gained strong analytical,
+                    pedagogical, and communication skills that now help me approach development with structure and
+                    clarity.
+                    <br><br>
+                    I enjoy learning new things, tackling challenges, and building meaningful solutions. Feel free to
+                    check out my projects or get in touch! <br><br>
+                </p>
+            </div><!-- End Section Title -->
+
+            <div class="container" data-aos="fade-up" data-aos-delay="50">
+
+                <div class="row gy-4 justify-content-center">
+                    <div class="col-lg-4">
+                        <img src="assets/img/pfp.jpg" class="img-fluid" alt="">
                     </div>
-                    <p class="py-3">
-                        <!-- TODO: Add a short bio here. -->
-                    </p>
+                    <div class="col-lg-8 content">
+                        <h2>Systemutvecklare | Software Engineer.</h2>
+                        <p class="fst-italic py-3">
+                            Currently studying at Malmö University. Expected graduation in June 2026.
+                        </p>
+                        <div class="row">
+                            <div class="col-lg-5">
+                                <ul>
+                                    <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong>
+                                        <span>15 Oct 1991</span>
+                                    </li>
+                                    <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong>
+                                        <span><a href="https://woxell.se">woxell.se</a></span>
+                                    </li>
+                                    <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong>
+                                        <span>+46 (0)76 094 60 02</span>
+                                    </li>
+                                    <li><i class="bi bi-chevron-right"></i> <strong>City:</strong>
+                                        <span>Malmö, Skåne, Sweden</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-6">
+                                <ul>
+                                    <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong>
+                                        <span id="age" data-birth="1991-10-15">34</span>
+                                    </li>
+                                    <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>
+                                            <a href="https://utbildningsinfo.mau.se/program/tgsya/utbildningsplan/20232"
+                                                target="_blank">
+                                                BSc. CompSci. Software Development</a></span>
+                                    </li>
+                                    <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong>
+                                        <span><a href="mailto:andre@woxell.se">andre@woxell.se</a></span>
+                                    </li>
+                                    <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong>
+                                        <span>Available</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <p class="py-3">
+                            <!-- TODO: Add a short bio here. -->
+                        </p>
+                    </div>
                 </div>
+
             </div>
 
-        </div>
+        </section><!-- /About Section -->
 
-    </section><!-- /About Section -->
+        <!-- Resume Section -->
+        <section id="resume" class="resume section">
 
-    <!-- Stats Section -->
-    <!--    <section id="stats" class="stats section">-->
+            <!-- Section Title -->
+            <div class="container section-title" data-aos="fade-up">
+                <h2>Resume</h2>
+            </div><!-- End Section Title -->
 
-    <!--        <div class="container" data-aos="fade-up" data-aos-delay="50">-->
+            <div class="container">
 
-    <!--            <div class="row gy-4">-->
+                <div class="row">
 
-    <!--                <div class="col-lg-3 col-md-6">-->
-    <!--                    <div class="stats-item">-->
-    <!--                        <i class="bi bi-emoji-smile"></i>-->
-    <!--                        <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1"-->
-    <!--                              class="purecounter"></span>-->
-    <!--                        <p><strong>Happy Clients</strong> <span>consequuntur quae</span></p>-->
-    <!--                    </div>-->
-    <!--                </div>&lt;!&ndash; End Stats Item &ndash;&gt;-->
+                    <div class="col-lg-6" data-aos="fade-up" data-aos-delay="50">
+                        <h3 class="resume-title">Summary</h3>
 
-    <!--                <div class="col-lg-3 col-md-6">-->
-    <!--                    <div class="stats-item">-->
-    <!--                        <i class="bi bi-journal-richtext"></i>-->
-    <!--                        <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1"-->
-    <!--                              class="purecounter"></span>-->
-    <!--                        <p><strong>Projects</strong> <span>adipisci atque cum quia aut</span></p>-->
-    <!--                    </div>-->
-    <!--                </div>&lt;!&ndash; End Stats Item &ndash;&gt;-->
+                        <div class="resume-item pb-0">
+                            <h4>André Woxell</h4>
+                            <p><em>Systems development student with a background in mathematics, physics, and software
+                                    development. Experienced in teaching, customer service, and technical
+                                    problem-solving.</em></p>
+                            <ul>
+                                <li>Malmö, Sweden</li>
+                                <li>+46 (0)76 094 60 02</li>
+                                <li><a href="mailto:andre@woxell.se">andre@woxell.se</a></li>
+                                <li><a href="https://linkedin.com/in/andrewoxell" target="_blank">LinkedIn</a></li>
+                            </ul>
+                        </div><!-- End Resume Item -->
 
-    <!--                <div class="col-lg-3 col-md-6">-->
-    <!--                    <div class="stats-item">-->
-    <!--                        <i class="bi bi-headset"></i>-->
-    <!--                        <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="1"-->
-    <!--                              class="purecounter"></span>-->
-    <!--                        <p><strong>Hours Of Support</strong> <span>aut commodi quaerat</span></p>-->
-    <!--                    </div>-->
-    <!--                </div>&lt;!&ndash; End Stats Item &ndash;&gt;-->
+                        <h3 class="resume-title">Education</h3>
 
-    <!--                <div class="col-lg-3 col-md-6">-->
-    <!--                    <div class="stats-item">-->
-    <!--                        <i class="bi bi-people"></i>-->
-    <!--                        <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="1"-->
-    <!--                              class="purecounter"></span>-->
-    <!--                        <p><strong>Hard Workers</strong> <span>rerum asperiores dolor</span></p>-->
-    <!--                    </div>-->
-    <!--                </div>&lt;!&ndash; End Stats Item &ndash;&gt;-->
+                        <div class="resume-item">
+                            <h4>Computer Systems Developer</h4>
+                            <h5>2023 - 2026</h5>
+                            <p><em>Malmö University</em></p>
+                            <p>Studying various aspects of software development, including object-oriented programming,
+                                web development, databases, and software engineering principles. Engaged in hands-on
+                                projects and collaborative work to build practical skills.</p>
+                        </div><!-- End Resume Item -->
 
-    <!--            </div>-->
+                        <div class="resume-item">
+                            <h4>Ämneslärarutbildning – Matematik & Fysik</h4>
+                            <h5>2013 - 2018</h5>
+                            <p><em>Malmö University</em></p>
+                            <p>Teacher education program focused on mathematics and physics at upper secondary level
+                                (Gymnasienivå). Developed strong pedagogical skills and gained experience in classroom
+                                management and curriculum development.</p>
+                        </div><!-- End Resume Item -->
 
-    <!--        </div>-->
+                        <div class="resume-item">
+                            <h4>Gymnasieutbildning – Naturvetenskap</h4>
+                            <h5>2007 - 2010</h5>
+                            <p><em>Pauliskolan, Malmö</em></p>
+                            <p>Studied natural sciences with a focus on mathematics, and computer science. Developed a
+                                solid foundation in scientific principles and analytical thinking.</p>
+                        </div><!-- End Resume Item -->
 
-    <!--    </section>&lt;!&ndash; /Stats Section &ndash;&gt;-->
+                    </div>
 
-    <!-- Skills Section -->
-    <!--    <section id="skills" class="skills section light-background">-->
+                    <div class="col-lg-6" data-aos="fade-up" data-aos-delay="50">
+                        <h3 class="resume-title">Professional Experience</h3>
 
-    <!--        &lt;!&ndash; Section Title &ndash;&gt;-->
-    <!--        <div class="container section-title" data-aos="fade-up">-->
-    <!--            <h2>Skills</h2>-->
-    <!--            <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>-->
-    <!--        </div>&lt;!&ndash; End Section Title &ndash;&gt;-->
+                        <div class="resume-item">
+                            <h4>Amanuens</h4>
+                            <h5>08/2024 - 01/2025</h5>
+                            <p><em>Malmö Universitet</em></p>
+                            <ul>
+                                <li>Assisted in teaching courses in Object-Oriented Programming and Introduction to
+                                    Computer Science.</li>
+                                <li>Provided support to students during lab sessions and office hours.</li>
+                                <li>Graded assignments and exams, and provided feedback to students.</li>
+                            </ul>
+                        </div><!-- End Resume Item -->
 
-    <!--        <div class="container" data-aos="fade-up" data-aos-delay="50">-->
+                        <div class="resume-item">
+                            <h4>Kundservicemedarbetare</h4>
+                            <h5>06/2018 - 08/2023</h5>
+                            <p><em>PostNord Sverige AB, Malmö</em></p>
+                            <ul>
+                                <li>Provided customer support for private individuals and businesses, resolving
+                                    inquiries and issues efficiently.</li>
+                                <li>Handled second-line support for first-line agents, offering advanced troubleshooting
+                                    and solutions.</li>
+                                <li>Trained new employees, ensuring they were well-prepared to handle customer
+                                    interactions.</li>
+                                <li>Managed customer service for Direct Mail & Direct Mail Premium, ensuring high levels
+                                    of customer satisfaction.</li>
+                            </ul>
+                        </div><!-- End Resume Item -->
 
-    <!--            <div class="row skills-content skills-animation">-->
+                        <div class="resume-item">
+                            <h4>Studiecoach</h4>
+                            <h5>06/2014 - 10/2018</h5>
+                            <p><em>My Academy, Malmö</em></p>
+                            <ul>
+                                <li>Provided part-time private tutoring in mathematics and physics for high school
+                                    students.</li>
+                                <li>Developed personalized lesson plans to meet the individual needs of students.</li>
+                                <li>Helped students improve their understanding of complex concepts and achieve academic
+                                    success.</li>
+                            </ul>
+                        </div><!-- End Resume Item -->
 
-    <!--                <div class="col-lg-6">-->
-
-    <!--                    <div class="progress">-->
-    <!--                        <span class="skill"><span>HTML</span> <i class="val">100%</i></span>-->
-    <!--                        <div class="progress-bar-wrap">-->
-    <!--                            <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0"-->
-    <!--                                 aria-valuemax="100"></div>-->
-    <!--                        </div>-->
-    <!--                    </div>&lt;!&ndash; End Skills Item &ndash;&gt;-->
-
-    <!--                    <div class="progress">-->
-    <!--                        <span class="skill"><span>CSS</span> <i class="val">90%</i></span>-->
-    <!--                        <div class="progress-bar-wrap">-->
-    <!--                            <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0"-->
-    <!--                                 aria-valuemax="100"></div>-->
-    <!--                        </div>-->
-    <!--                    </div>&lt;!&ndash; End Skills Item &ndash;&gt;-->
-
-    <!--                    <div class="progress">-->
-    <!--                        <span class="skill"><span>JavaScript</span> <i class="val">75%</i></span>-->
-    <!--                        <div class="progress-bar-wrap">-->
-    <!--                            <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0"-->
-    <!--                                 aria-valuemax="100"></div>-->
-    <!--                        </div>-->
-    <!--                    </div>&lt;!&ndash; End Skills Item &ndash;&gt;-->
-
-    <!--                </div>-->
-
-    <!--                <div class="col-lg-6">-->
-
-    <!--                    <div class="progress">-->
-    <!--                        <span class="skill"><span>PHP</span> <i class="val">80%</i></span>-->
-    <!--                        <div class="progress-bar-wrap">-->
-    <!--                            <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0"-->
-    <!--                                 aria-valuemax="100"></div>-->
-    <!--                        </div>-->
-    <!--                    </div>&lt;!&ndash; End Skills Item &ndash;&gt;-->
-
-    <!--                    <div class="progress">-->
-    <!--                        <span class="skill"><span>WordPress/CMS</span> <i class="val">90%</i></span>-->
-    <!--                        <div class="progress-bar-wrap">-->
-    <!--                            <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0"-->
-    <!--                                 aria-valuemax="100"></div>-->
-    <!--                        </div>-->
-    <!--                    </div>&lt;!&ndash; End Skills Item &ndash;&gt;-->
-
-    <!--                    <div class="progress">-->
-    <!--                        <span class="skill"><span>Photoshop</span> <i class="val">55%</i></span>-->
-    <!--                        <div class="progress-bar-wrap">-->
-    <!--                            <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0"-->
-    <!--                                 aria-valuemax="100"></div>-->
-    <!--                        </div>-->
-    <!--                    </div>&lt;!&ndash; End Skills Item &ndash;&gt;-->
-
-    <!--                </div>-->
-
-    <!--            </div>-->
-
-    <!--        </div>-->
-
-    <!--    </section>&lt;!&ndash; /Skills Section -->
-
-    <!-- Resume Section -->
-    <section id="resume" class="resume section">
-
-        <!-- Section Title -->
-        <div class="container section-title" data-aos="fade-up">
-            <h2>Resume</h2>
-        </div><!-- End Section Title -->
-
-        <div class="container">
-
-            <div class="row">
-
-                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="50">
-                    <h3 class="resume-title">Summary</h3>
-
-                    <div class="resume-item pb-0">
-                        <h4>André Woxell</h4>
-                        <p><em>Systems development student with a background in mathematics, physics, and software development. Experienced in teaching, customer service, and technical problem-solving.</em></p>
-                        <ul>
-                            <li>Malmö, Sweden</li>
-                            <li>+46 (0)76 094 60 02</li>
-                            <li><a href="mailto:andre@woxell.se">andre@woxell.se</a></li>
-                            <li><a href="https://linkedin.com/in/andrewoxell" target="_blank">LinkedIn</a></li>
-                        </ul>
-                    </div><!-- End Resume Item -->
-
-                    <h3 class="resume-title">Education</h3>
-
-                    <div class="resume-item">
-                        <h4>Computer Systems Developer</h4>
-                        <h5>2023 - 2026</h5>
-                        <p><em>Malmö University</em></p>
-                        <p>Studying various aspects of software development, including object-oriented programming, web development, databases, and software engineering principles. Engaged in hands-on projects and collaborative work to build practical skills.</p>
-                    </div><!-- End Resume Item -->
-
-                    <div class="resume-item">
-                        <h4>Ämneslärarutbildning – Matematik & Fysik</h4>
-                        <h5>2013 - 2018</h5>
-                        <p><em>Malmö University</em></p>
-                        <p>Teacher education program focused on mathematics and physics at upper secondary level (Gymnasienivå). Developed strong pedagogical skills and gained experience in classroom management and curriculum development.</p>
-                    </div><!-- End Resume Item -->
-
-                    <div class="resume-item">
-                        <h4>Gymnasieutbildning – Naturvetenskap</h4>
-                        <h5>2007 - 2010</h5>
-                        <p><em>Pauliskolan, Malmö</em></p>
-                        <p>Studied natural sciences with a focus on mathematics, and computer science. Developed a solid foundation in scientific principles and analytical thinking.</p>
-                    </div><!-- End Resume Item -->
-
-                </div>
-
-                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="50">
-                    <h3 class="resume-title">Professional Experience</h3>
-
-                    <div class="resume-item">
-                        <h4>Amanuens</h4>
-                        <h5>08/2024 - 01/2025</h5>
-                        <p><em>Malmö Universitet</em></p>
-                        <ul>
-                            <li>Assisted in teaching courses in Object-Oriented Programming and Introduction to Computer Science.</li>
-                            <li>Provided support to students during lab sessions and office hours.</li>
-                            <li>Graded assignments and exams, and provided feedback to students.</li>
-                        </ul>
-                    </div><!-- End Resume Item -->
-
-                    <div class="resume-item">
-                        <h4>Kundservicemedarbetare</h4>
-                        <h5>06/2018 - 08/2023</h5>
-                        <p><em>PostNord Sverige AB, Malmö</em></p>
-                        <ul>
-                            <li>Provided customer support for private individuals and businesses, resolving inquiries and issues efficiently.</li>
-                            <li>Handled second-line support for first-line agents, offering advanced troubleshooting and solutions.</li>
-                            <li>Trained new employees, ensuring they were well-prepared to handle customer interactions.</li>
-                            <li>Managed customer service for Direct Mail & Direct Mail Premium, ensuring high levels of customer satisfaction.</li>
-                        </ul>
-                    </div><!-- End Resume Item -->
-
-                    <div class="resume-item">
-                        <h4>Studiecoach</h4>
-                        <h5>06/2014 - 10/2018</h5>
-                        <p><em>My Academy, Malmö</em></p>
-                        <ul>
-                            <li>Provided part-time private tutoring in mathematics and physics for high school students.</li>
-                            <li>Developed personalized lesson plans to meet the individual needs of students.</li>
-                            <li>Helped students improve their understanding of complex concepts and achieve academic success.</li>
-                        </ul>
-                    </div><!-- End Resume Item -->
+                    </div>
 
                 </div>
 
             </div>
 
-        </div>
-
-    </section><!-- /Resume Section -->
+        </section><!-- /Resume Section -->
 
 
-    <!-- Portfolio Section -->
-    <section id="portfolio" class="portfolio section light-background">
+        <!-- Portfolio Section -->
+        <section id="portfolio" class="portfolio section light-background">
 
-        <!-- Section Title -->
-        <div class="container section-title" data-aos="fade-up">
-            <h2>Portfolio</h2>
-            <p>This section is still under construction.</p>
-        </div><!-- End Section Title -->
+            <!-- Section Title -->
+            <div class="container section-title" data-aos="fade-up">
+                <h2>Portfolio</h2>
+            </div><!-- End Section Title -->
 
-        <div class="container">
+            <div class="container">
 
-            <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+                <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
 
-                <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="50">
-                    <li data-filter="*" class="filter-active">All</li>
-                    <li data-filter=".filter-app">App</li>
-                    <li data-filter=".filter-product">Product</li>
-                    <li data-filter=".filter-branding">Branding</li>
-                    <li data-filter=".filter-books">Books</li>
-                </ul><!-- End Portfolio Filters -->
+                    <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="50">
 
-                <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="50">
-
-                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-                        <div class="portfolio-content h-100">
-                            <img src="assets/img/portfolio/app-1.jpg" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4>App 1</h4>
-                                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                                <a href="assets/img/portfolio/app-1.jpg" title="App 1"
-                                   data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i
-                                        class="bi bi-zoom-in"></i></a>
-                                <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                                        class="bi bi-link-45deg"></i></a>
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                            <div class="portfolio-content h-100">
+                                <img src="assets/img/portfolio/srotify.png" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>SRotify</h4>
+                                    <p>Lorem ipsum, dolor sit amet consectetur</p>
+                                    <a href="assets/img/portfolio/srotify.png" title="SRotify"
+                                        data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i
+                                            class="bi bi-zoom-in"></i></a>
+                                    <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                                            class="bi bi-link-45deg"></i></a>
+                                </div>
                             </div>
-                        </div>
-                    </div><!-- End Portfolio Item -->
+                        </div><!-- End Portfolio Item -->
 
-                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-                        <div class="portfolio-content h-100">
-                            <img src="assets/img/portfolio/product-1.jpg" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4>Product 1</h4>
-                                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                                <a href="assets/img/portfolio/product-1.jpg" title="Product 1"
-                                   data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i
-                                        class="bi bi-zoom-in"></i></a>
-                                <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                                        class="bi bi-link-45deg"></i></a>
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+                            <div class="portfolio-content h-100">
+                                <img src="assets/img/portfolio/OOPFeedback.png" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>OOP Feedback</h4>
+                                    <p>Lorem ipsum, dolor sit amet consectetur</p>
+                                    <a href="assets/img/portfolio/OOPFeedback.png" title="OOP Feedback"
+                                        data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i
+                                            class="bi bi-zoom-in"></i></a>
+                                    <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                                            class="bi bi-link-45deg"></i></a>
+                                </div>
                             </div>
-                        </div>
-                    </div><!-- End Portfolio Item -->
+                        </div><!-- End Portfolio Item -->
 
-                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-                        <div class="portfolio-content h-100">
-                            <img src="assets/img/portfolio/branding-1.jpg" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4>Branding 1</h4>
-                                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                                <a href="assets/img/portfolio/branding-1.jpg" title="Branding 1"
-                                   data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
-                                        class="bi bi-zoom-in"></i></a>
-                                <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                                        class="bi bi-link-45deg"></i></a>
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+                            <div class="portfolio-content h-100">
+                                <img src="assets/img/portfolio/FCCExtension.png" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>freeCodeCamp Extension</h4>
+                                    <p>Extension for Chromium browsers. Blocks distracting modals.</p>
+                                    <a href="assets/img/portfolio/FCCExtension.png" title="freeCodeCamp Extension"
+                                        data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
+                                            class="bi bi-zoom-in"></i></a>
+                                    <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                                            class="bi bi-link-45deg"></i></a>
+                                </div>
                             </div>
-                        </div>
-                    </div><!-- End Portfolio Item -->
+                        </div><!-- End Portfolio Item -->
 
-                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
-                        <div class="portfolio-content h-100">
-                            <img src="assets/img/portfolio/books-1.jpg" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4>Books 1</h4>
-                                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                                <a href="assets/img/portfolio/books-1.jpg" title="Branding 1"
-                                   data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i
-                                        class="bi bi-zoom-in"></i></a>
-                                <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                                        class="bi bi-link-45deg"></i></a>
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
+                            <div class="portfolio-content h-100">
+                                <img src="assets/img/portfolio/Clicklogs2.png" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>Clicklogs</h4>
+                                    <p>Lorem ipsum, dolor sit amet consectetur.</p>
+                                    <a href="assets/img/portfolio/Clicklogs2.png" title="Clicklogs"
+                                        data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i
+                                            class="bi bi-zoom-in"></i></a>
+                                    <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                                            class="bi bi-link-45deg"></i></a>
+                                </div>
                             </div>
-                        </div>
-                    </div><!-- End Portfolio Item -->
+                        </div><!-- End Portfolio Item -->
 
-                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-                        <div class="portfolio-content h-100">
-                            <img src="assets/img/portfolio/app-2.jpg" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4>App 2</h4>
-                                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                                <a href="assets/img/portfolio/app-2.jpg" title="App 2"
-                                   data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i
-                                        class="bi bi-zoom-in"></i></a>
-                                <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                                        class="bi bi-link-45deg"></i></a>
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                            <div class="portfolio-content h-100">
+                                <img src="assets/img/portfolio/PostnummerDR.png" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>Postnummer parser</h4>
+                                    <p>Lorem ipsum, dolor sit amet consectetur</p>
+                                    <a href="assets/img/portfolio/PostnummerDR.png" title="Postnummerläsaren"
+                                        data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i
+                                            class="bi bi-zoom-in"></i></a>
+                                    <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                                            class="bi bi-link-45deg"></i></a>
+                                </div>
                             </div>
-                        </div>
-                    </div><!-- End Portfolio Item -->
+                        </div><!-- End Portfolio Item -->
 
-                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-                        <div class="portfolio-content h-100">
-                            <img src="assets/img/portfolio/product-2.jpg" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4>Product 2</h4>
-                                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                                <a href="assets/img/portfolio/product-2.jpg" title="Product 2"
-                                   data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i
-                                        class="bi bi-zoom-in"></i></a>
-                                <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                                        class="bi bi-link-45deg"></i></a>
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+                            <div class="portfolio-content h-100">
+                                <img src="assets/img/portfolio/Localzero.png" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>Localzero</h4>
+                                    <p>Lorem ipsum, dolor sit amet consectetur</p>
+                                    <a href="assets/img/portfolio/Localzero.png" title="Localzero"
+                                        data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i
+                                            class="bi bi-zoom-in"></i></a>
+                                    <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                                            class="bi bi-link-45deg"></i></a>
+                                </div>
                             </div>
-                        </div>
-                    </div><!-- End Portfolio Item -->
+                        </div><!-- End Portfolio Item -->
+                    </div><!-- End Portfolio Container -->
+                </div>
+            </div>
+        </section><!-- /Portfolio Section -->
 
-                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-                        <div class="portfolio-content h-100">
-                            <img src="assets/img/portfolio/branding-2.jpg" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4>Branding 2</h4>
-                                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                                <a href="assets/img/portfolio/branding-2.jpg" title="Branding 2"
-                                   data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
-                                        class="bi bi-zoom-in"></i></a>
-                                <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                                        class="bi bi-link-45deg"></i></a>
-                            </div>
-                        </div>
-                    </div><!-- End Portfolio Item -->
+        <!-- Contact Section -->
+        <section id="contact" class="contact section">
 
-                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
-                        <div class="portfolio-content h-100">
-                            <img src="assets/img/portfolio/books-2.jpg" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4>Books 2</h4>
-                                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                                <a href="assets/img/portfolio/books-2.jpg" title="Branding 2"
-                                   data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i
-                                        class="bi bi-zoom-in"></i></a>
-                                <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                                        class="bi bi-link-45deg"></i></a>
-                            </div>
-                        </div>
-                    </div><!-- End Portfolio Item -->
-
-                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-                        <div class="portfolio-content h-100">
-                            <img src="assets/img/portfolio/app-3.jpg" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4>App 3</h4>
-                                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                                <a href="assets/img/portfolio/app-3.jpg" title="App 3"
-                                   data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i
-                                        class="bi bi-zoom-in"></i></a>
-                                <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                                        class="bi bi-link-45deg"></i></a>
-                            </div>
-                        </div>
-                    </div><!-- End Portfolio Item -->
-
-                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-                        <div class="portfolio-content h-100">
-                            <img src="assets/img/portfolio/product-3.jpg" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4>Product 3</h4>
-                                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                                <a href="assets/img/portfolio/product-3.jpg" title="Product 3"
-                                   data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i
-                                        class="bi bi-zoom-in"></i></a>
-                                <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                                        class="bi bi-link-45deg"></i></a>
-                            </div>
-                        </div>
-                    </div><!-- End Portfolio Item -->
-
-                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-                        <div class="portfolio-content h-100">
-                            <img src="assets/img/portfolio/branding-3.jpg" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4>Branding 3</h4>
-                                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                                <a href="assets/img/portfolio/branding-3.jpg" title="Branding 2"
-                                   data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
-                                        class="bi bi-zoom-in"></i></a>
-                                <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                                        class="bi bi-link-45deg"></i></a>
-                            </div>
-                        </div>
-                    </div><!-- End Portfolio Item -->
-
-                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
-                        <div class="portfolio-content h-100">
-                            <img src="assets/img/portfolio/books-3.jpg" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4>Books 3</h4>
-                                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                                <a href="assets/img/portfolio/books-3.jpg" title="Branding 3"
-                                   data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i
-                                        class="bi bi-zoom-in"></i></a>
-                                <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                                        class="bi bi-link-45deg"></i></a>
-                            </div>
-                        </div>
-                    </div><!-- End Portfolio Item -->
-
-                </div><!-- End Portfolio Container -->
-
+            <!-- Section Title -->
+            <div class="container section-title" data-aos="fade-up">
+                <h2>Contact</h2>
             </div>
 
-        </div>
+            <div class="container">
+                <div class="row gy-4">
+                    <div class="col-lg-5">
+                        <div class="info-wrap">
+                            <div class="info-item d-flex">
+                                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                                <div>
+                                    <h3>Address</h3>
+                                    <p>Rapsbaggegatan 1, 218 39, Bunkeflostrand</p>
+                                </div>
+                            </div><!-- End Info Item -->
 
-    </section><!-- /Portfolio Section -->
+                            <div class="info-item d-flex">
+                                <i class="bi bi-telephone flex-shrink-0"></i>
+                                <div>
+                                    <h3>Call me</h3>
+                                    <p>+46 (0)76 094 60 02</p>
+                                </div>
+                            </div><!-- End Info Item -->
 
-    <!-- Services Section -->
-<!--    <section id="services" class="services section">-->
+                            <div class="info-item d-flex">
+                                <i class="bi bi-envelope flex-shrink-0"></i>
+                                <div>
+                                    <h3>Email me</h3>
+                                    <p><a href="mailto:andre@woxell.se">andre@woxell.se</a></p>
+                                </div>
+                            </div><!-- End Info Item -->
 
-<!--        &lt;!&ndash; Section Title &ndash;&gt;-->
-<!--        <div class="container section-title" data-aos="fade-up">-->
-<!--            <h2>Services</h2>-->
-<!--            <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint-->
-<!--                consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat-->
-<!--                sit in iste officiis commodi quidem hic quas.</p>-->
-<!--        </div>&lt;!&ndash; End Section Title &ndash;&gt;-->
-
-<!--        <div class="container">-->
-
-<!--            <div class="row gy-4">-->
-
-<!--                <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="50">-->
-<!--                    <div class="icon flex-shrink-0"><i class="bi bi-briefcase"></i></div>-->
-<!--                    <div>-->
-<!--                        <h4 class="title"><a href="service-details.html" class="stretched-link">Lorem Ipsum</a></h4>-->
-<!--                        <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias-->
-<!--                            excepturi sint occaecati cupiditate non provident</p>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--                &lt;!&ndash; End Service Item &ndash;&gt;-->
-
-<!--                <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="50">-->
-<!--                    <div class="icon flex-shrink-0"><i class="bi bi-card-checklist"></i></div>-->
-<!--                    <div>-->
-<!--                        <h4 class="title"><a href="service-details.html" class="stretched-link">Dolor Sitema</a></h4>-->
-<!--                        <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip-->
-<!--                            ex ea commodo consequat tarad limino ata</p>-->
-<!--                    </div>-->
-<!--                </div>&lt;!&ndash; End Service Item &ndash;&gt;-->
-
-<!--                <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="300">-->
-<!--                    <div class="icon flex-shrink-0"><i class="bi bi-bar-chart"></i></div>-->
-<!--                    <div>-->
-<!--                        <h4 class="title"><a href="service-details.html" class="stretched-link">Sed ut perspiciatis</a>-->
-<!--                        </h4>-->
-<!--                        <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum-->
-<!--                            dolore eu fugiat nulla pariatur</p>-->
-<!--                    </div>-->
-<!--                </div>&lt;!&ndash; End Service Item &ndash;&gt;-->
-
-<!--                <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="400">-->
-<!--                    <div class="icon flex-shrink-0"><i class="bi bi-binoculars"></i></div>-->
-<!--                    <div>-->
-<!--                        <h4 class="title"><a href="service-details.html" class="stretched-link">Magni Dolores</a></h4>-->
-<!--                        <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia-->
-<!--                            deserunt mollit anim id est laborum</p>-->
-<!--                    </div>-->
-<!--                </div>&lt;!&ndash; End Service Item &ndash;&gt;-->
-
-<!--                <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="500">-->
-<!--                    <div class="icon flex-shrink-0"><i class="bi bi-brightness-high"></i></div>-->
-<!--                    <div>-->
-<!--                        <h4 class="title"><a href="service-details.html" class="stretched-link">Nemo Enim</a></h4>-->
-<!--                        <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis-->
-<!--                            praesentium voluptatum deleniti atque</p>-->
-<!--                    </div>-->
-<!--                </div>&lt;!&ndash; End Service Item &ndash;&gt;-->
-
-<!--                <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="600">-->
-<!--                    <div class="icon flex-shrink-0"><i class="bi bi-calendar4-week"></i></div>-->
-<!--                    <div>-->
-<!--                        <h4 class="title"><a href="service-details.html" class="stretched-link">Eiusmod Tempor</a></h4>-->
-<!--                        <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero-->
-<!--                            tempore, cum soluta nobis est eligendi</p>-->
-<!--                    </div>-->
-<!--                </div>&lt;!&ndash; End Service Item &ndash;&gt;-->
-
-<!--            </div>-->
-
-<!--        </div>-->
-
-<!--    </section>&lt;!&ndash; /Services Section &ndash;&gt;-->
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact section">
-
-        <!-- Section Title -->
-        <div class="container section-title" data-aos="fade-up">
-            <h2>Contact</h2>
-<!--            <p>I hope my website has piqued your interest. I am always eager to hear from you, so feel free to contact me!</p>-->
-        </div>
-
-        <div class="container">
-
-            <div class="row gy-4">
-
-                <div class="col-lg-5">
-
-                    <div class="info-wrap">
-                        <div class="info-item d-flex" >
-                            <i class="bi bi-geo-alt flex-shrink-0"></i>
-                            <div>
-                                <h3>Address</h3>
-                                <p>Rapsbaggegatan 1, 218 39, Bunkeflostrand</p>
-                            </div>
-                        </div><!-- End Info Item -->
-
-                        <div class="info-item d-flex" >
-                            <i class="bi bi-telephone flex-shrink-0"></i>
-                            <div>
-                                <h3>Call me</h3>
-                                <p>+46 (0)76 094 60 02</p>
-                            </div>
-                        </div><!-- End Info Item -->
-
-                        <div class="info-item d-flex" >
-                            <i class="bi bi-envelope flex-shrink-0"></i>
-                            <div>
-                                <h3>Email me</h3>
-                                <p><a href="mailto:andre@woxell.se">andre@woxell.se</a></p>
-                            </div>
-                        </div><!-- End Info Item -->
-
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2256.6529303008906!2d12.930797176394153!3d55.555829707145925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4653a7228e8a23bd%3A0x8719da20ad21706e!2sRapsbaggegatan%201%2C%20218%2037%20Bunkeflostrand!5e0!3m2!1ssv!2sse!4v1742265777768!5m2!1ssv!2sse"
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2256.6529303008906!2d12.930797176394153!3d55.555829707145925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4653a7228e8a23bd%3A0x8719da20ad21706e!2sRapsbaggegatan%201%2C%20218%2037%20Bunkeflostrand!5e0!3m2!1ssv!2sse!4v1742265777768!5m2!1ssv!2sse"
                                 frameborder="0" style="border:0; width: 100%; height: 270px;" allowfullscreen=""
                                 loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-                </div> <!-- End Contact Form -->
+                        </div>
+                    </div> <!-- End Contact Form -->
+
+                </div>
 
             </div>
 
+        </section><!-- /Contact Section -->
+
+    </main>
+
+    <footer id="footer" class="footer position-relative light-background">
+
+        <div class="container">
+            <div class="copyright text-center ">
+                <p>© <span>Copyright</span> <strong class="px-1 sitename">André Woxell</strong>
+                    <span>All Rights Reserved</span>
+                </p>
+            </div>
         </div>
 
-    </section><!-- /Contact Section -->
+    </footer>
 
-</main>
+    <!-- Scroll Top -->
+    <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
 
-<footer id="footer" class="footer position-relative light-background">
-
-    <div class="container">
-        <div class="copyright text-center ">
-            <p>© <span>Copyright</span> <strong class="px-1 sitename">André Woxell</strong>
-                <span>All Rights Reserved</span></p>
-        </div>
-        <div class="credits">
-            <!-- TODO Add credits -->
-        </div>
-    </div>
-
-</footer>
-
-<!-- Scroll Top -->
-<a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
-        class="bi bi-arrow-up-short"></i></a>
-
-<!-- Preloader -->
-<div id="preloader"></div>
-<!-- Auto-calc age -->
-<script>
-  (function () {
-    const el = document.getElementById('age');
-    if (!el) return;
-    // Prefer ISO date in data-birth (YYYY-MM-DD). Fallback: try parsing birthday text.
-    const iso = el.getAttribute('data-birth') || document.getElementById('birthday')?.textContent;
-    const b = iso ? new Date(iso) : null;
-    if (!b || Number.isNaN(b.getTime())) return;
-    const today = new Date();
-    let age = today.getFullYear() - b.getFullYear();
-    const m = today.getMonth() - b.getMonth();
-    if (m < 0 || (m === 0 && today.getDate() < b.getDate())) age--;
-    el.textContent = String(age);
-  })();
-</script>
+    <!-- Preloader -->
+    <div id="preloader"></div>
+    <!-- Auto-calc age -->
+    <script>
+        (function () {
+            const ageElement = document.getElementById('age');
+            if (!ageElement) return;
+            // Prefer ISO date in data-birth (YYYY-MM-DD). Fallback: try parsing birthday text.
+            const iso = ageElement.getAttribute('data-birth') || document.getElementById('birthday')?.textContent;
+            const b = iso ? new Date(iso) : null;
+            if (!b || Number.isNaN(b.getTime())) return;
+            const today = new Date();
+            let age = today.getFullYear() - b.getFullYear();
+            const m = today.getMonth() - b.getMonth();
+            if (m < 0 || (m === 0 && today.getDate() < b.getDate())) age--;
+            ageElement.textContent = String(age);
+        })();
+    </script>
 </body>
+
 </html>
